@@ -4,6 +4,7 @@ import os
 
 from openai import OpenAI
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
+#Day 5：把模拟发票文字提取成 JSON，并校验字段
 
 
 # 定义程序允许接收的发票字段和限制
